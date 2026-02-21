@@ -93,7 +93,7 @@ body::after {
 @media(max-width:540px){.edu-grid{grid-template-columns:38px 1fr;}.edu-date-col{display:none;}}
 
 .hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;}
-@media(max-width:860px){.hero-grid{grid-template-columns:1fr;}.hero-card-wrap{display:none;}}
+@media(max-width:860px){.hero-grid{grid-template-columns:1fr;}.hero-card-wrap{display:none; margin-top:50px;}}
 
 .eni-hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;}
 @media(max-width:860px){.eni-hero-grid{grid-template-columns:1fr;gap:2rem;}}
