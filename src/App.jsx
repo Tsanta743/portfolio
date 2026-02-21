@@ -377,7 +377,7 @@ function PortfolioPage({ photo, setPhoto }) {
 
   const formation = [
     { icon: gradIcon, degree: "2ème année de Maîtrise — Informatique Générale", school: "ENI · Fianarantsoa", date: "01/2026 → Présent", badge: "En cours" },
-    { icon: bookIcon, degree: "1ère année de Maîtrise — Informatique Générale", school: "ENI · Fianarantsoa", date: "01/2025 → 12/2025" },
+    { icon: gradIcon, degree: "1ère année de Maîtrise — Informatique Générale", school: "ENI · Fianarantsoa", date: "01/2025 → 12/2025" },
     { icon: bookIcon, degree: "Licence 3 — Informatique Générale", school: "ENI · Fianarantsoa", date: "01/2024 → 12/2024" },
     { icon: bookIcon, degree: "Licence 2 — Informatique Générale", school: "ENI · Fianarantsoa", date: "01/2023 → 12/2023" },
     { icon: bookIcon, degree: "Licence 1 — Informatique Générale", school: "ENI · Fianarantsoa", date: "11/2021 → 11/2022" },
