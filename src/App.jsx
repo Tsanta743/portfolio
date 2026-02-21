@@ -111,7 +111,7 @@ function Nav({ page, setPage }) {
     <nav style={navStyle}>
       <div style={{ fontFamily: "var(--mono)", fontSize: ".8rem", color: "var(--c1)", letterSpacing: ".12em", display: "flex", alignItems: "center", gap: ".5rem" }}>
         <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--c3)", display: "inline-block", animation: "blink 2s ease-in-out infinite" }} />
-        tsantatiana.dev
+        tsantatiana
       </div>
       {/* Desktop nav */}
       <ul style={{ display: "flex", gap: "2rem", listStyle: "none", alignItems: "center" }}>
