@@ -391,12 +391,12 @@ function PortfolioPage({ photo, setPhoto }) {
         <div className="grid-bg"/><div className="orb orb1"/><div className="orb orb2"/><div className="orb orb3"/>
         <div className="hero-grid wrap" style={{ height: "100%", position: "relative", zIndex: 2 }}>
           {/* Left */}
-          <div style={{ animation: "pageIn .7s ease both" }}>
+          <div style={{ animation: "pageIn .7s ease both", marginRight:"5px" }}>
             <div style={{ display: "inline-flex", alignItems: "center", gap: ".5rem", fontFamily: "var(--mono)", fontSize: ".65rem", color: "var(--c3)", letterSpacing: ".15em", textTransform: "uppercase", padding: ".4rem 1rem", border: "1px solid rgba(6,255,165,.25)", borderRadius: 100, background: "rgba(6,255,165,.05)", marginBottom: "1.5rem" }}>
               <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--c3)", animation: "blink 1.5s infinite" }} />
               Disponible · Ouvert aux opportunités
             </div>
-            <h1 style={{ fontSize: "clamp(2.6rem,7vw,5.8rem)", fontWeight: 800, lineHeight: .95, letterSpacing: "-.03em", marginBottom: "1rem" }}>
+            <h1 style={{ fontSize: "clamp(2rem,6vw,5rem)", fontWeight: 800, lineHeight: .95, letterSpacing: "-.03em", marginBottom: "1rem" }}>
               <span style={{ display: "block" }}>Tsantatiana</span>
               <span style={{ display: "block", background: "linear-gradient(135deg,var(--c1) 0%,var(--c2) 55%,var(--c4) 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>Fandresena</span>
               <span style={{ display: "block" }}>Rahandrisoa</span>
